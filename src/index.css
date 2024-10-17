@@ -54,7 +54,7 @@ body {
 
 /* 搜索框的占位符颜色 */
 .search-section .search-form {
-height: 54px;
+    height: 54px;
     width: 100%;
     position: relative;
 }
@@ -70,7 +70,7 @@ height: 54px;
 }
 
 /* 搜索框样式 */
-.search-section  .search-input {
+.search-section .search-input {
     height: 54px;
     width: 300px;
     width: 300px;
@@ -170,17 +170,56 @@ height: 54px;
     margin-bottom: -16px;
     scrollbar-color: transparent transparent;
 }
+
 .hourly-forecast .weather-list {
-    scrollbar-color : #c5bcdb transparent;
+    scrollbar-color: #c5bcdb transparent;
 }
+
 .hourly-forecast .weather-item {
     display: flex;
     gap: 7px;
     flex-direction: column;
     align-items: center;
 }
+
 /* 小时天气预报的图标样式 */
 .hourly-forecast .weather-item .weather-icon {
     width: 28px;
     aspect-ratio: 1;
+}
+
+.no-results {
+    color: #fff;
+    display: flex;
+    text-align: center;
+    min-height: 460px;
+    padding: 60px 40px 40px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.no-results .title {
+    margin: 25px 0 15px;
+}
+
+@media (max-width: 624px) {
+
+    body,
+    .search-section{
+        padding:20px;
+    }
+    
+    .hourly-forecast{
+        padding:16px 20px;
+     
+    }
+    .hourly-forecast .weather-list{
+        gap: 24px;
+    }
+
+    .no-results{
+        padding:30px;
+        min-height: 458px;
+    }
 }
