@@ -111,7 +111,7 @@ body {
     transition: 0.2s ease;
 }
 
-.search-sction .location-button span {
+.search-section .location-button span {
     font-size: 1.3rem;
 }
 
@@ -133,7 +133,7 @@ body {
 }
 
 .current-weather .weather-icon {
-    width: 140px;
+    width:200px;
     aspect-ratio: 1;
 }
 
@@ -184,7 +184,7 @@ body {
 
 /* 小时天气预报的图标样式 */
 .hourly-forecast .weather-item .weather-icon {
-    width: 28px;
+    width: 65px;
     aspect-ratio: 1;
 }
 
